@@ -320,7 +320,7 @@ def build_deck(out_dir, team, school, members, mentor, email):
     d.text(s, 8.1, 2.4, 4.8, 4.5, ["Pilot introductions to two flood-prone LGUs and their municipal health officers", "DICT Startup Grant Fund consideration (PHP 500,000 to 1 M) for year-one pilots", "DOH Epidemiology Bureau and GeoRiskPH data access under MOU", "Mentorship on LGU procurement and Data Privacy Act compliance", "Allocation: 44% product and infrastructure, 38% field validation and adoption, 18% compliance and contingency"], size=13, bullet=True, spacing=8)
     # 15 team
     s = d.slide("Team", f"{school}")
-    roles = [(members[0] if len(members) > 0 else "Member 1", "CEO: customer validation, LGU partnerships, pitch, finance"), (members[1] if len(members) > 1 else "Member 2", "CTO: exposure and risk engine, backend, offline PWA"), (members[2] if len(members) > 2 else "Member 3", "CPO/CMO: BHW experience, multilingual content, training, brand"), (mentor, "Mentor: clinical and GIS validation, DOH and LGU introductions")]
+    roles = [(members[0] if len(members) > 0 else "Member 1", "CEO: customer validation, LGU partnerships, pitch, finance. info@astin.ph"), (members[1] if len(members) > 1 else "Member 2", "CTO: exposure and risk engine, backend, offline PWA. johnalvinbondoc@gmail.com"), (members[2] if len(members) > 2 else "Member 3", "CPO/CMO: BHW experience, multilingual content, training, brand. aurchierodriguez@gmail.com"), (mentor, "Mentor: technical review, DOH Region III and LGU introductions. ggsioson.au@phinmaed.com")]
     for i, (n, r) in enumerate(roles):
         x = 0.5 + (i % 2) * 6.2; y = 1.9 + (i // 2) * 2.5
         d.box(s, x, y, 6.0, 2.2, fill="FFFFFF", line="D5DEEA"); d.box(s, x, y, 0.15, 2.2, fill=ORANGE if i < 3 else NAVY)
@@ -338,9 +338,9 @@ def to_pdf(path, out_dir):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--team", default="TeamName"); ap.add_argument("--school", default="School Name")
-    ap.add_argument("--region", default="Region __"); ap.add_argument("--members", nargs="*", default=["Student Member 1 (CEO)", "Student Member 2 (CTO)", "Student Member 3 (CPO/CMO)"])
-    ap.add_argument("--mentor", default="Mentor Name"); ap.add_argument("--email", default="team@email.com")
+    ap.add_argument("--team", default="TeamLusong"); ap.add_argument("--school", default="PHINMA Araullo University, Cabanatuan City")
+    ap.add_argument("--region", default="Region III (Central Luzon)"); ap.add_argument("--members", nargs="*", default=["Justine Tabunan (CEO)", "John Alvin D. Bondoc (CTO)", "Aurchie Keem N. Rodriguez (CPO/CMO)"])
+    ap.add_argument("--mentor", default="Gabriel Nikiloz G. Sioson (CIT Faculty)"); ap.add_argument("--email", default="info@astin.ph / 0965 274 3311 (Justine Tabunan); ggsioson.au@phinmaed.com (mentor)")
     ap.add_argument("--out", default=os.path.join(ROOT, "submission"))
     a = ap.parse_args(); os.makedirs(a.out, exist_ok=True)
     build_logo(a.out, a.team); print("logo ok")

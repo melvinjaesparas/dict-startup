@@ -1,7 +1,7 @@
 # LUSONG Win Plan for PSC XI (2026)
 
 ## 0. Urgent: confirm the deadline today
-- The DICT Region VII post for PSC XI listed applications from **Aug 27 to Sept 20, 2026**. Other regions run their own forms and timelines. Email **psc_inquiries@dict.gov.ph** and message your DICT Regional Office today to confirm your region's deadline, the exact concept note file name (the template shows `TeamName_Concept Note_PS...`; ask if "PS" refers to a problem statement number), and whether a problem-statement list exists. If it does, map LUSONG to the health or disaster statement.
+- The DICT Region VII post for PSC XI listed applications from **Aug 27 to Sept 20, 2026**. Other regions run their own forms and timelines. Email **psc_inquiries@dict.gov.ph** and message DICT Region III (Central Luzon) today to confirm your region's deadline, the exact concept note file name (the template shows `TeamName_Concept Note_PS...`; ask if "PS" refers to a problem statement number), and whether a problem-statement list exists. If it does, map LUSONG to the health or disaster statement.
 - Confirmed PSC XI eligibility: senior high, college, and tech-voc students; ICT-enabled solutions (AI, IoT, Web3, blockchain named as examples).
 
 ## 1. Why LUSONG wins on the criteria
@@ -38,6 +38,7 @@ If behind by week 5: cut the ML model (keep rules), cut Messenger (keep SMS), ke
 ## 5. Validation playbook
 - Interview: BHWs (what happens after a flood, how they find who waded), RHU physician (prophylaxis protocol, doxycycline stock, case reporting), MDRRMO (data they get, what they would pay for), barangay captain (who decides, how LDRRMF is spent), two families of past patients (timeline from flood to hospital).
 - Ten questions: When was the last flood? Who waded? How did you find out? Who got doxycycline and when? How many cases reached the RHU? What forms did you fill out? What is your BHS internet like? What would you do with a list of exposed households within 12 hours? Who approves a PHP 60,000 subscription? What would make you say no?
+- Pilot sites: Barangay Baloc (Sto. Domingo), Barangay Bangad (Cabanatuan City), Barangay Bantug (Science City of Muñoz), where team members live.
 - Traction to show at the pitch: interview count, LOI or MOA, BHWs trained, households enrolled, backtest recall, SMS delivered in pilot, a quote from a municipal health officer.
 
 ## 6. Five-minute pitch (11 slides)

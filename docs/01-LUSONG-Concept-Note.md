@@ -1,4 +1,4 @@
-Team Name: ____ | School: ____ | Region: ____ | Members: ____ | Mentor: ____
+Team Name: TeamLusong | School: PHINMA Araullo University, Cabanatuan City | Region: III (Central Luzon) | Members: Justine Tabunan (CEO), John Alvin D. Bondoc (CTO), Aurchie Keem N. Rodriguez (CPO/CMO) | Mentor: Gabriel Nikiloz G. Sioson, CIT Faculty
 
 # CONCEPT NOTE
 
@@ -58,7 +58,7 @@ Key value proposition: LUSONG is the only system that closes the loop from flood
 
 **Paying customers:** city and municipal governments (about 1,640 LGUs nationally; team estimate from PSA counts), through the Local Disaster Risk Reduction and Management Fund, 70% of which is reserved for prevention, mitigation, and preparedness under RA 10121, and through the health budget. Later: provincial governments, DOH Centers for Health Development, water districts, and insurers.
 
-**Early adopters:** LGUs with recurring flood and leptospirosis history and an active MDRRMO, for example Marikina, Malabon, Navotas, Calumpit, Hagonoy, Cabanatuan, Dagupan, Naga, Ormoc, Cotabato City, and Davao City riverside districts. These LGUs already have BIMS-oriented barangays and eLGU accounts (eLGU is live in 41 cities and 901 municipalities) [15].
+**Early adopters:** Nueva Ecija LGUs along the Pampanga and Talavera river systems where the team lives and studies: Cabanatuan City, Science City of Muñoz, Sto. Domingo, Talavera, San Jose City, Gapan, Jaen, and Zaragoza. Next: Calumpit and Hagonoy (Bulacan), Marikina, Malabon, Navotas, Dagupan, Naga, Ormoc, Cotabato City, and Davao City riverside districts. These LGUs already have BIMS-oriented barangays and eLGU accounts (eLGU is live in 41 cities and 901 municipalities) [15].
 
 ## VI. VALUE PROPOSITION
 
@@ -103,10 +103,10 @@ Unique benefits: (1) the only tool built around the clinical prophylaxis window 
 ## IX. OPERATIONS PLAN
 
 **Team (3 students + mentor):**
-- CEO: customer validation, LGU and RHU partnerships, pitch, finance.
-- CTO: exposure and risk engine, backend, data pipelines, offline PWA.
-- CPO/CMO: BHW user experience, multilingual advisory content, field training, logo, video, brand.
-- Mentor (faculty, ideally with public health or GIS background): clinical validation, DOH and LGU introductions.
+- Justine Tabunan, CEO: customer validation, LGU and RHU partnerships, pitch, finance.
+- John Alvin D. Bondoc, CTO: exposure and risk engine, backend, data pipelines, offline PWA.
+- Aurchie Keem N. Rodriguez, CPO/CMO: BHW user experience, multilingual advisory content, field training, logo, video, brand.
+- Gabriel Nikiloz G. Sioson, Mentor (CIT Faculty, PHINMA Araullo University): technical review, DOH Region III and LGU introductions; a public health adviser from the Nueva Ecija Provincial Health Office will be recruited.
 - Advisers to recruit: one municipal health officer, one MDRRMO officer, one BHW.
 
 **8-week MVP build (to regional pitch):**
@@ -116,7 +116,7 @@ Unique benefits: (1) the only tool built around the clinical prophylaxis window 
 - Week 7: two-week tabletop and live pilot in one or two barangays; collect usage and feedback.
 - Week 8: polish, pitch deck, video pitch, logo, concept note update with pilot numbers.
 
-**Validation and pilot:** secure a Letter of Intent from one LGU by week 6; enroll 20 BHWs and 1,000 households; measure advisory delivery time, BHW visits per day, prophylaxis doses logged, and symptom reports.
+**Validation and pilot:** start in the team members' own barangays, Baloc (Sto. Domingo), Bangad (Cabanatuan City), and Bantug (Science City of Muñoz), where the team has resident access to BHWs, barangay officials, and households; secure a Letter of Intent from one of these LGUs by week 6; enroll 20 BHWs and 1,000 households; measure advisory delivery time, BHW visits per day, prophylaxis doses logged, and symptom reports. Advisories will be drafted in Tagalog first, the language of all three pilot barangays.
 
 **Go-to-market:** DILG and DOH regional offices for endorsements; League of Municipalities and provincial health offices for bundled deals; DICT regional offices and the Startup Grant Fund for first-year subsidy; demonstrations timed before the next rainy season (May 2027).
 
