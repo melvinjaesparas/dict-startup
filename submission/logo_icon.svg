@@ -1,0 +1,11 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024' width='1024' height='1024'>
+<defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#0E4DA4'/><stop offset='1' stop-color='#062B63'/></linearGradient>
+<clipPath id='c'><rect x='112' y='112' width='800' height='800' rx='200'/></clipPath></defs>
+<rect x='112' y='112' width='800' height='800' rx='200' fill='url(#g)'/>
+<g clip-path='url(#c)'>
+<path d='M60 660 C 180 570, 300 570, 420 660 S 660 750, 780 660 S 1000 570, 1060 660 L1060 1000 L60 1000 Z' fill='#1E6FD0' opacity='0.55'/>
+<path d='M60 760 C 180 670, 300 670, 420 760 S 660 850, 780 760 S 1000 670, 1060 760 L1060 1000 L60 1000 Z' fill='#7FC4FF' opacity='0.75'/>
+</g>
+<polyline points='190,430 350,430 410,300 480,560 550,350 610,430 834,430' fill='none' stroke='#FF8A3D' stroke-width='46' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='834' cy='430' r='34' fill='#FFFFFF'/>
+</svg>
