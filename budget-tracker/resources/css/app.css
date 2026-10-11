@@ -1,0 +1,44 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../vendor/livewire/livewire/src/Features/SupportPagination/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+    --font-sans: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    --color-brand-50: #eef4ff;
+    --color-brand-100: #d9e5ff;
+    --color-brand-500: #2563eb;
+    --color-brand-600: #1d4ed8;
+    --color-brand-700: #1e40af;
+    --color-ink-900: #0b1220;
+    --color-ink-800: #111a2e;
+    --color-ink-700: #1b2642;
+}
+
+@layer components {
+    .card { @apply rounded-2xl border border-slate-200 bg-white shadow-sm; }
+    .card-pad { @apply p-5; }
+    .btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-3.5 py-2 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-brand-500/40 disabled:cursor-not-allowed disabled:opacity-50; }
+    .btn-primary { @apply inline-flex items-center justify-center gap-2 rounded-xl px-3.5 py-2 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-brand-500/40 disabled:cursor-not-allowed disabled:opacity-50 bg-brand-600 text-white hover:bg-brand-700; }
+    .btn-secondary { @apply inline-flex items-center justify-center gap-2 rounded-xl px-3.5 py-2 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-brand-500/40 disabled:cursor-not-allowed disabled:opacity-50 border border-slate-200 bg-white text-slate-700 hover:bg-slate-50; }
+    .btn-ghost { @apply inline-flex items-center justify-center gap-2 rounded-xl px-3.5 py-2 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-brand-500/40 disabled:cursor-not-allowed disabled:opacity-50 text-slate-600 hover:bg-slate-100; }
+    .btn-danger { @apply inline-flex items-center justify-center gap-2 rounded-xl px-3.5 py-2 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-brand-500/40 disabled:cursor-not-allowed disabled:opacity-50 bg-red-600 text-white hover:bg-red-700; }
+    .btn-sm { @apply px-2.5 py-1.5 text-xs; }
+    .input { @apply block w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm placeholder:text-slate-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/30; }
+    .label { @apply mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500; }
+    .badge { @apply inline-flex items-center rounded-full px-2 py-0.5 text-[11px] font-semibold; }
+    .badge-green { @apply inline-flex items-center rounded-full px-2 py-0.5 text-[11px] font-semibold bg-emerald-50 text-emerald-700; }
+    .badge-red { @apply inline-flex items-center rounded-full px-2 py-0.5 text-[11px] font-semibold bg-red-50 text-red-700; }
+    .badge-amber { @apply inline-flex items-center rounded-full px-2 py-0.5 text-[11px] font-semibold bg-amber-50 text-amber-700; }
+    .badge-slate { @apply inline-flex items-center rounded-full px-2 py-0.5 text-[11px] font-semibold bg-slate-100 text-slate-600; }
+    .badge-blue { @apply inline-flex items-center rounded-full px-2 py-0.5 text-[11px] font-semibold bg-blue-50 text-blue-700; }
+    .badge-violet { @apply inline-flex items-center rounded-full px-2 py-0.5 text-[11px] font-semibold bg-violet-50 text-violet-700; }
+    .table { @apply w-full text-left text-sm; }
+    .table th { @apply px-4 py-2.5 text-xs font-semibold uppercase tracking-wide text-slate-500; }
+    .table td { @apply px-4 py-3 align-middle; }
+    .table tbody tr { @apply border-t border-slate-100; }
+    .nav-link { @apply flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium text-slate-300 transition hover:bg-white/5 hover:text-white; }
+    .nav-link-active { @apply bg-white/10 text-white; }
+}

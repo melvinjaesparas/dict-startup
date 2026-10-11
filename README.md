@@ -9,3 +9,9 @@ Mabilisang gabay (Taglish):
 - **Competition facts** (mechanics, criteria, past winners, sources): `research/01-competition-brief.md`.
 
 **Agad gawin:** i-confirm sa inyong DICT Regional Office at sa psc_inquiries@dict.gov.ph ang deadline ng inyong region (ang Region VII post ay Aug 27–Sept 20, 2026), ang exact file name ng concept note, at kung may listahan ng problem statements.
+
+---
+
+## Budget Tracker (Laravel + Livewire + MySQL)
+
+A separate personal budget tracker app for Justine Tabunan / Astin Tech Solutions lives in [`budget-tracker/`](budget-tracker/README.md): accounts and e-wallets (GCash, Maya, Maribank, UnionDigital, BPI, Atome…), loans (GLoan, GCredit, GGives, Maya Credit), house bills, AI subscriptions, savings goals and allowance budgets. Setup steps are in that folder's README.
